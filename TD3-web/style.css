@@ -4,13 +4,23 @@ body {
 
 h1 {
     font-family: "Lobster", sans-serif;
+
+message.txt
+3 Ko
+﻿
+body {
+    background: linear-gradient(to left, #36d1dc, #5b86e5);
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
     text-align: center;
     font-weight: 400;
-    text-shadow: 4px 4px 0px rgba(0, 0, 255,0.2);
+    text-shadow: 0.25em 0.25em 0em rgba(0, 0, 255, 0.2); 
 }
 
 #logo-cyu:hover {
-    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.7);
+    box-shadow: 0.375em 0.375em 1.5625em rgba(0, 0, 0, 0.7); 
     border-radius: 0.5em;
 }
 
@@ -19,24 +29,22 @@ h1 {
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 50px;
-}
+    gap: 3.125em; 
 
 .liens li a {
-  display: block;
-  padding: 15px 25px;
-  background-color: #eee;
-  text-decoration: none;
-  color: black;
-  margin-right: 45px;
-  margin-top: 20px;
-  border-radius: 5px;
-}
+    display: block;
+    padding: 0.9375em 1.5625em; 
+    background-color: #eee;
+    text-decoration: none;
+    color: black;
+    margin-right: 2.8125em; 
+    margin-top: 1.25em; 
+    border-radius: 0.3125em; 
 
 .liens li a:hover {
     background-color: #0df2f2;
     color: #f98006;
-    box-shadow: 6px 6px 25px rgba(243, 199, 133, 0.925);
+    box-shadow: 0.375em 0.375em 1.5625em rgba(243, 199, 133, 0.925);
 }
 
 h2 {
@@ -44,7 +52,7 @@ h2 {
 }
 
 #dev {
-    border-radius: 25px;
+    border-radius: 1.5625em; 
 }
 
 .important {
@@ -58,15 +66,15 @@ h2 {
 }
 
 .bloc img {
-    width: 250px;
-    margin-left: 70px;
+    width: 15.625em; 
+    margin-left: 4.375em; 
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
 
 .bloc-css img {
-    width: 250px;
-    margin-left: 100px;
-    border-radius: 25px;
+    width: 15.625em; 
+    margin-left: 6.25em; 
+    border-radius: 1.5625em; 
 }
 
 footer {
@@ -76,7 +84,7 @@ footer {
 
 .conclusion-bloc {
     display: flex;
-    gap: 40px;
+    gap: 2.5em; 
     align-items: flex-start;
 }
 
@@ -91,31 +99,31 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden; 
+    border: 0.0625em solid #ccc; 
+    border-radius: 0.625em; 
+    overflow: hidden;
 }
-
 
 th {
     background: #222;
     color: white;
-    padding: 12px;
+    padding: 0.75em; 
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625em; 
 }
 
 td {
-    padding: 12px;
+    padding: 0.75em; 
     text-align: center;
 }
 
 td, th {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 0.0625em solid #ddd; 
 }
 
 tr:hover td {
     background: #e9f2ff;
 }
+
 
